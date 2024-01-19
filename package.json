@@ -1,0 +1,18 @@
+{
+  "name": "node-grpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Albert-Osei/node-grpc.git",
+  "author": "Albert-Osei <oseialbert072@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "proto:gen": "./proto-gen.sh",
+    "start": "ts-node server"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.9.14",
+    "@grpc/proto-loader": "^0.7.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
